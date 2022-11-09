@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+  <div class="form">
+    <form class="form_global">
+       <div class="data">
+        <p class="first_title">Account</p>
+        <div class="form_input">
+            <img src="https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png" alt="profile picture">
+            <input class="full_name" placeholder="Full Name">
+        </div>
+        <div class="form_input">
+            <img src="https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png" alt="mail picture" class="picture_mail">
+            <input class="email" placeholder="Gmail">
+        </div>
+        <div class="form_input">
+            <img src="https://www.iconpacks.net/icons/1/free-key-icon-920-thumb.png" alt="key picture" class="picture_key">
+            <input class="password" placeholder="password">
+        </div>
+       </div>
+        <p class="second_title">Date of Birth</p> <p class="third_title">Gender</p>
+        <div class="form_input">
+            <input class="little_box" placeholder="DD" id="DD">
+            <input class="little_box" placeholder="MM" id="MM">
+            <input class="middle_box" placeholder="YYYY" id="YYYY">
+            <div class="switch-field">
+                <input type="radio" id="radio-one" name="switch-one" value="woman" checked/>
+                <label for="radio-one">Woman</label>
+                <input type="radio" id="radio-two" name="switch-one" value="man" />
+                <label for="radio-two">Man</label>
+            </div>
+        <p>Payment Details</p>
+        <div class="switch-field-second">
+            <input type="radio" id="radio-one" name="switch-one" value="CreditCard" checked/>
+            <label for="radio-one">Credit Card</label>
+            <input type="radio" id="radio-two" name="switch-one" value="PayPal" />
+            <label for="radio-two">PayPal</label>
+        </div>
+        </div>
+        <button class="button">submit</button>
+    </form>
+</div>
+</body>
+</html>
